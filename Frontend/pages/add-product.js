@@ -8,7 +8,7 @@ const AddProduct = () => {
 
   let Add = async () => {
     if (PName && PPrice) {
-      let API = await fetch("http://localhost:4500/add-product", {
+      let API = await fetch("http://localhost:8000/add-product", {
         method: "post",
         body: JSON.stringify({ PName, PPrice }),
         headers: {
