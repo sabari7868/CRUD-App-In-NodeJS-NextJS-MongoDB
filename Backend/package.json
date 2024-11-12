@@ -2,8 +2,10 @@
   "name": "Backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Index.js",
   "scripts": {
+    "start": "node Index.js",
+    "dev": "nodemon Index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,5 +17,12 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.5.2",
     "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
+
