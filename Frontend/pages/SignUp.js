@@ -11,7 +11,7 @@ const SignUp = () => {
   {
     if(Name && Email && Password)
     {
-      let API=await fetch('http://localhost:4500/register' , {
+      let API=await fetch('http://localhost:8000/register' , {
         method:'post',
         body:JSON.stringify({Name:Name,Email:Email,Password:Password}),
         headers:{
