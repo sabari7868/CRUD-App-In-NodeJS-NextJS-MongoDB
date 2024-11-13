@@ -8,7 +8,7 @@ export default function Home() {
   let [Person, setPerson] = useState();
 
   let GetProducts = async () => {
-    let API = await fetch("http://localhost:8000/",{headers: {
+    let API = await fetch("http://18.213.143.149:8000/",{headers: {
       authorization: JSON.parse(localStorage.getItem("Token")),
     }})
     .then(async (Res) => {
@@ -26,7 +26,7 @@ export default function Home() {
   };
 
   let Delete = async (id) => {
-    let Res = await fetch(`http://localhost:8000/delete/${id}`, {
+    let Res = await fetch(`http://18.213.143.149:8000/delete/${id}`, {
       method: "delete",
       headers: {
         "Content-Type": "application/json",
