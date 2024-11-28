@@ -63,9 +63,9 @@ export default function Home() {
           </thead>
 
           <tbody>
-            {Products.map((Each) => {
+            {Products.map((Each,index) => {
               return (
-                <tr className="flex space-x-2 my-2 text-center items-center">
+                <tr className="flex space-x-2 my-2 text-center items-center" key={index}>
                   <td className="border-2 border-green-500 p-2 text-black w-full">
                     {Each.PName}
                   </td>
