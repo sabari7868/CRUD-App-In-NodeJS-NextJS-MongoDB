@@ -44,7 +44,7 @@ export default function Home() {
   useEffect(() => {
     User()
     GetProducts();
-  }, []);
+  }, );
 
   return (
     <>
