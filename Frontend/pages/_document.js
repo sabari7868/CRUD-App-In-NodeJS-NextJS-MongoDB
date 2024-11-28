@@ -9,8 +9,8 @@ export default function Document() {
           rel="stylesheet"
         />
         <link rel="shortcut icon" href="Favicon.png" type="image/x-icon" />
-        <title>B2b product</title>
       </Head>
+        <title>B2b product</title>
       <body>
         <Main />
         <NextScript />
