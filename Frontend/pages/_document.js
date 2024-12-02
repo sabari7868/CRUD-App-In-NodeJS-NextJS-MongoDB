@@ -10,7 +10,7 @@ export default function Document() {
         />
         <link rel="shortcut icon" href="Favicon.png" type="image/x-icon" />
       </Head>
-        <title>B2b</title>
+        <title>B2b hi</title>
       <body>
         <Main />
         <NextScript />
