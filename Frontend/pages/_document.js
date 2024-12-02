@@ -10,7 +10,7 @@ export default function Document() {
         />
         <link rel="shortcut icon" href="Favicon.png" type="image/x-icon" />
       </Head>
-        <title>B2b product qwerty qwerew qwert qwertyuytrewwer</title>
+        <title>B2b product qwerty qwerew qwert qwertyuytrewwe qwertyuytrewq  qr</title>
       <body>
         <Main />
         <NextScript />
