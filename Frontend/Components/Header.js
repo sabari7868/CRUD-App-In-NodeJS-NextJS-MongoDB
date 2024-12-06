@@ -22,7 +22,7 @@ const Header = () => {
           <li>Products</li>
         </Link>
         <Link href="/add-product">
-          <li>Add Product news</li>
+          <li>Add Product</li>
         </Link>
       </div>
       <div className="Right flex list-none space-x-3">
