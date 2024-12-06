@@ -22,8 +22,8 @@ const Header = () => {
           <li>Products</li>
         </Link>
         <Link href="/add-product">
-          <li>Add Product</li>
-        </Link>
+          <li>Add Product list</li>
+        </Link> 
       </div>
       <div className="Right flex list-none space-x-3">
         {!State ? (
